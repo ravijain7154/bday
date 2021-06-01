@@ -1,0 +1,95 @@
+body
+{
+  background-color: #a79c93;
+  font-size: 1.7vh;
+  color:#FFFFFF;
+   padding-bottom:0px;
+  margin-bottom:3.5% ;
+  
+}
+
+.marq
+{
+  background-color:#000000;
+  text-transform: uppercase;
+  height: 100%;
+  overflow: scroll ; 
+  position: relative;
+  font-size:1.6vh;
+ 
+  
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+ animation: blinking 1.5s linear infinite;
+  
+}
+@-webkit-keyframes blinking {
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+.cake{
+  font-size:1.8vh;
+  padding: 0;
+  margin: auto;
+  text-align:center;
+  background-color: #c1403d;
+  overflow: ;
+  display:block;
+  clear: both;
+   
+ 
+}
+.p{
+  background-color: lightpink;
+  color:black;
+  font-size: auto;
+  width:85%;
+  height: 40%;
+  
+  margin-left:12%;
+  display:block;
+  overflow:hidden;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom:10px;
+ box-shadow: 4px 4px 2px #6a8a82,8px 8px 3px #81A3a7;
+ border-radius: 2px;
+  }
+  .p2{ 
+   box-shadow:3px 3px 4px blue, 6px 6px 4px red, 9px 9px 4px green;
+    background-color: #0294a5;
+    color: #1f1641;
+    margin:1%;
+    padding-top:1%;
+    padding-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 10%;
+  width: 85%;
+  display: hidden;
+letter-spacing:4px;
+}
+h3{
+  background-color: #8a2f23;
+}
+.h3{
+  background-color: #8a2f23;
+  width:75%;
+  margin-left:36%;
+}
+.p3{
+  background-color: #3f3232;
+  overflow:hidden ;
+}
+footer{
+  font-size: 1.5vh;
+ position: fixed;
+ padding-top: 2px;
+  left: 0;
+  bottom: 3;
+  width: 100%;
+  text-align:center;
+  color: black;
+}
